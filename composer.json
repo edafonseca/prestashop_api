@@ -1,0 +1,23 @@
+{
+    "name": "edafonseca/prestashop_api",
+    "authors": [
+        {
+            "name": "Emmanuel Da Fonseca",
+            "email": "edafonseca@nodevo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PsHttp\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "^6.5",
+        "nikic/php-parser": "^4.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
